@@ -1,0 +1,12 @@
+/* .hero-section{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 254, 247);
+} */
+
+.book-btn{
+    border: 3px solid green;
+    font-weight: 500;
+}

@@ -9,11 +9,12 @@
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
             <div class="container">
                 <a class="navbar-brand" href="#">BD BIKESHARE</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -78,7 +79,7 @@
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-outline-success"
                                                 data-bs-dismiss="modal">Close</button>
-                                            <button type="submit" class="btn btn-outline-success">Submit</button>
+                                            <button type="submit" class="btn btn-outline-success">Login</button>
                                         </div>
                                     </div>
                                 </div>
@@ -87,13 +88,13 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">or</a>
+                            <a class="nav-link disabled mx-lg-2 ms-2" href="#">or</a>
                         </li>
 
 
                         <li class="nav-item">
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                            <button type="button" class="btn btn-outline-success ms-lg-0 ms-3" data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">
                                 Sign Up
                             </button>
@@ -212,8 +213,31 @@
         </nav>
     </header>
 
-    <section>
-
+    <section class="container text-center text-lg-start">
+            <div class="row d-flex justify-content-between align-items-center flex-column-reverse flex-md-column-reverse flex-lg-row">
+                <div class="col-lg-8 col-12">
+                    <h2>Fair price ride</h2>
+                        <h1 class="display-2"><span class="text-success">Rent Our</span> <span class="text-danger">Scooter</span></h1>
+                        <p>It's a Scooter rental service. If your want to go for a ride with when your leave form home or office or need emergency, need to go any destination quickly and easily, our riders are always there for pick you. Fast and convenient way to reach your certain destination.</p>
+                        <div class="row g-3 row-cols-1 align-items-center">
+                            <div class="col-lg-3">
+                              <input type="text" class="form-control" placeholder="Destination" aria-label="City" title="Your Current Location">
+                            </div>
+                            <div class="col-lg-2">
+                                <input type="text" class="form-control" placeholder="Km" aria-label="Kilometers" title="kilometers">
+                              </div>
+                            <div class="col-lg-4">
+                              <input type="datetime-local" class="form-control" placeholder="date" aria-label="State" title="Pickup Date">
+                            </div>
+                            <div class="col-lg-3">
+                              <a href="#" class="btn btn-danger d-lg-inline-block d-block px-4 book-btn">Book</a>
+                            </div>
+                          </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <img class="img-fluid mx-auto mx-md-auto m-lg-0 ms-lg-auto d-lg-block d-md-block" src="./assets/images/hero-image (2).png" alt="">
+                </div>
+            </div>
     </section>
 
 
