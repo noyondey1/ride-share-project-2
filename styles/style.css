@@ -10,3 +10,8 @@
     border: 3px solid green;
     font-weight: 500;
 }
+
+.signup-btn{
+    border: 3px solid red;
+    font-weight: 500;
+}
